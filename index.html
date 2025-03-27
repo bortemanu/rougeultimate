@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rouge Helps - AI Assistant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        .chat-container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .chat-header {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .chat-button {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .chat-button:hover {
+            background-color: #e60000;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">Welcome to Rouge Helps</div>
+        <p>Your virtual psychologist always ready to help you.</p>
+        <button class="chat-button" onclick="openChat()">Start Chat</button>
+    </div>
+
+    <script>
+        function openChat() {
+            window.open("https://chatgpt.com/g/g-67d963e5d72881918acb3ba104565b1f-rouge-helps", "_blank");
+        }
+    </script>
+</body>
+</html>
